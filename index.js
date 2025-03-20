@@ -16,7 +16,9 @@ let messageEl = document.getElementById("message-el")
 let sum = cards[0] + cards[1]
 
 
-function startGame(){
+first
+
+function getRandomGame(){
     if (sum <= 20) {
         message = "Do you want to draw a new card?"
         cardsEl.textContent = "Cards: " + cards[0] + " " + cards[1]
@@ -38,5 +40,5 @@ function startGame(){
 function newCard(){
     let newCard = 6
     sum += newCard
-    sumEl.textContent = "Sum: " + sum
+    startGame()
 }
